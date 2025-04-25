@@ -14,7 +14,7 @@
 This repository contains a comprehensive project for detecting fake news using machine learning techniques and various natural language processing techniques. The project includes data analysis, model training, and a web application for real-time fake news detection. The machine learning model is designed to classify news articles as either real or fake based on their content.
 
 ## Problem Definition
-We aim to develop a machine learning program to identify when a news source may be producing fake news. The model will focus on identifying fake news sources, based on multiple articles originating from a source. Once a source is labeled as a producer of fake news, we can predict with high confidence that any future articles from that source will also be fake news. Focusing on sources widens our article misclassification tolerance, because we will have multiple data points coming from each source.
+We aim to develop a machine learning program to identify when a news source may be producing fake news. The model will focus on identifying fake news sources based on multiple articles originating from a source. Once a source is labeled as a producer of fake news, we can predict with high confidence that any future articles from that source will also be fake news. Focusing on sources widens our article's misclassification tolerance because we will have multiple data points coming from each source.
 
 The intended application of the project is for use in applying visibility weights in social media. Using weights produced by this model, social networks can make stories that are highly likely to be fake news less visible.
 
@@ -52,7 +52,7 @@ The Passive Aggressive Classifier (PAC) is a type of online learning algorithm f
 ### Model Accuracy
 The Passive Aggressive Classifier achieved an impressive accuracy of **96%** during evaluation. This high accuracy indicates its effectiveness in classifying news articles as reliable or unreliable.
 
-The model is pre-trained and available as `model.pkl` in this repository, allowing you to use it for making predictions.
+The model is pre-trained and available as `model.pkl` in this repository, allowing you to use it for  making predictions.
 
 Feel free to explore the Jupyter Notebook (`Fake_News_Detector-PA.ipynb`) for more details about the model's training and performance.
 
