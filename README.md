@@ -93,7 +93,7 @@ To get started with this project, follow these steps:
    ```
 
 4. Install project dependencies:
-   ```bash
+   ```bashv 
    pip install -r requirements.txt
    ```
 
@@ -117,7 +117,7 @@ Access the application in your web browser by navigating to `http://localhost:50
    
         
     
- 
+  
     
   
   
